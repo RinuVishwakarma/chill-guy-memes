@@ -1,8 +1,8 @@
 "use client"
 
-import { Toolbar } from "@/components/toolbar"
-import { useFabric } from "@/hooks/use-fabric"
-import "@/app/fonts.css"
+import { Toolbar } from "../components/toolbar"
+import { useFabric } from "../hooks/use-fabric"
+import "./fonts.css"
 import { useEffect, useState } from "react"
 
 export default function HomePage() {
